@@ -12,7 +12,7 @@ public interface User32 extends StdCallLibrary {
 //			);
 	
 	
-	public int MessageBoxA(int hwnd, String text, String caption, int type);
+	public int MessageBoxW(int hwnd, String text, String caption, int type);
 	
 	
 
